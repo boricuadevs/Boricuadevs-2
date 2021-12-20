@@ -90,21 +90,28 @@
     </section>
     <section id="contact" class="section section-gray wf-section">
       <div class="w-container">
-        <form
-  action="https://formspree.io/f/xnqwqyzn"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+        <div class="w-container">
+          <h2 class="heading-7">Contact form</h2>
+          <p class="paragraph-5">Let me know if you are interested in starting your project or you are unsure if we are a good fit. I will set an appointment with you so we can chat online and discuss it further.</p>
+          <div id="formInstructions" class="small-text"><em>Fields marked with an asterisk (*) are required.</em></div>
+          <div class="w-form">
+            <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="post" action="https://formspree.io/f/xnqwqyzn" >
+              <div class="contact-form-grid">
+                <div id="w-node-_904d7bea-f866-aa78-7117-187f1c1f93bc-219532bc"><label for="First-Name" id="contact-first-name" class="field-label">First name *</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" id="First-Name" firstname="text" required=""></div>
+                <div id="w-node-_904d7bea-f866-aa78-7117-187f1c1f93c0-219532bc"><label for="Last-Name" id="contact-last-name" class="field-label-2">Last name *</label><input type="text" lastname="text" class="text-field-2 w-input" maxlength="256" name="Last-Name" data-name="Last Name" id="Last-Name" required=""></div>
+                <div id="w-node-_904d7bea-f866-aa78-7117-187f1c1f93c4-219532bc"><label for="Email" id="contact-email" class="field-label-4">Email *</label><input type="email" class="text-field-4 w-input" maxlength="256" name="Email" data-name="Email" id="Email" email="text" required=""></div>
+                <div id="w-node-_904d7bea-f866-aa78-7117-187f1c1f93c8-219532bc"><label for="Contact-Phone-Number" id="contact-phone" class="field-label-3">Phone number</label><input type="tel" class="text-field-3 w-input" maxlength="256" name="Contact-Phone-Number" phone="number" data-name="Contact Phone Number" id="Contact-Phone-Number"></div>
+                <div id="w-node-_904d7bea-f866-aa78-7117-187f1c1f93cc-219532bc"><label for="Message" id="contact-message" class="field-label-5">Tell me about your project and availability</label><textarea data-name="Message" maxlength="5000" id="Message" name="Message" query="text" class="textarea w-input"></textarea></div>
+              </div><input type="submit" value="Submit" data-wait="Please wait..." text="Submit" class="submit-button w-button" style="background-color: #A82810;">
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
     </section>
     <div class="section-2 wf-section">
       <h1 class="heading-4">Projects</h1>
