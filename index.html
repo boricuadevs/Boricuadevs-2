@@ -90,25 +90,21 @@
     </section>
     <section id="contact" class="section section-gray wf-section">
       <div class="w-container">
-        <div class="section-title-group">
-          <h2 class="section-heading centered">Contact Form</h2>
-          <div class="section-subheading center">Please let me know what your project is and availability to discuss bringing it to life.</div>
-        </div>
-        <div class="form-wrapper squeezed w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" form action="https://formspree.io/f/xnqwqyzn" method="POST">
-            <div class="w-row">
-              <div class="column-remove-padding w-col w-col-6"><input type="text" class="form-field w-input" maxlength="256" name="name-7" data-name="Name 7" placeholder="Name" id="name-7"></div>
-              <div class="column-remove-padding w-col w-col-6"><input type="email" class="form-field w-input" maxlength="256" name="email-9" data-name="Email 9" placeholder="Email" id="email-9" required=""></div>
-            </div><textarea id="field-4" name="field-4" placeholder="Message" maxlength="5000" data-name="Field 4" class="form-field text-area w-input"></textarea><input type="submit" value="Send Message" data-wait="Please wait..." class="button full-width w-button">
-          </form>
-          <div class="success-message w-form-done">
-            <p class="paragraph-form">Thank you! Your submission has been received!</p>
-          </div>
-          <div class="success-message w-form-fail">
-            <p class="paragraph-form">Oops! Something went wrong while submitting the form :(</p>
-          </div>
-        </div>
-      </div>
+        <form
+  action="https://formspree.io/f/xnqwqyzn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
     <div class="section-2 wf-section">
       <h1 class="heading-4">Projects</h1>
